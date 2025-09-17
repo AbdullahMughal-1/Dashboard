@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../SideBar'
-import DashboardHeader from '../DashBoardHeader';
 import CourseDashboard from '../Courses/CourseDashboard';
+import DashboardHeader from '../DashBoardHeader';
 
 export default function Courses() {
     return (
