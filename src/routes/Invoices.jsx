@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../SideBar'
-import DashboardHeader from '../DashBoardHeader';
 import InvoicesTable from '../Invoices/InvoicesTable';
+import DashBoardHeader from '../DashBoardHeader.';
 
 export default function Invoices() {
     return (
@@ -9,7 +9,7 @@ export default function Invoices() {
             <Sidebar />
 
             <div className="flex-1 overflow-y-auto md:ml">
-                <DashboardHeader />
+                <DashBoardHeader />
                 <InvoicesTable />
 
             </div>

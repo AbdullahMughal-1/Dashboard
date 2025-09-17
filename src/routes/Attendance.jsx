@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../SideBar'
-import DashboardHeader from '../DashBoardHeader';
 import AttendanceOverview from '../Attendence/AttendanceOverview';
+import DashBoardHeader from '../DashBoardHeader.';
 
 
 export default function Attendance() {
@@ -10,7 +10,7 @@ export default function Attendance() {
             <Sidebar />
 
             <div className="flex-1 overflow-y-auto md:ml">
-                <DashboardHeader />
+                <DashBoardHeader />
                 <AttendanceOverview />
 
             </div>

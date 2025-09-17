@@ -2,7 +2,7 @@
 import React from 'react';
 import Sidebar from '../SideBar';
 import Dashboard1 from '../Dashboard/DashBoard1';
-import DashboardHeader from '../DashBoardHeader';
+import DashBoardHeader from '../DashBoardHeader.';
 
 
 export default function DashBoard() {
@@ -11,7 +11,7 @@ export default function DashBoard() {
             <Sidebar />
 
             <div className="flex-1 overflow-y-auto md:ml">
-                <DashboardHeader />
+                <DashBoardHeader />
                 <Dashboard1 />
             </div>
         </div>

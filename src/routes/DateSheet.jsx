@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../SideBar'
-import DashboardHeader from '../DashBoardHeader';
-import Exam1 from '../exam/exam1';
+import DashboardHeader from '../DashBoardHeader'; import Exam1 from '../exam/exam1';
+import DashBoardHeader from '../DashBoardHeader.';
 
 
 
@@ -11,7 +11,7 @@ export default function DateSheet() {
             <Sidebar />
 
             <div className="flex-1 overflow-y-auto md:ml">
-                <DashboardHeader />
+                <DashBoardHeader />
                 <Exam1 />
 
 
