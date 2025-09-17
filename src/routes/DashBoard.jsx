@@ -1,7 +1,7 @@
 // DashBoard.jsx
 import React from 'react';
 import Sidebar from '../SideBar';
-import Dashboard1 from '../Dashboard/DashBoard1';
+import Dashboard1 from '../Dashboard/Dashboard1';
 
 
 export default function DashBoard() {
