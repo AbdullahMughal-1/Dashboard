@@ -1,7 +1,6 @@
 import React from 'react'
 import Sidebar from '../SideBar'
 import ResultsTable from '../Result/ResultTable';
-import DashboardHeader from '../DashBoardHeader';
 
 export default function Results() {
     return (
@@ -9,7 +8,6 @@ export default function Results() {
             <Sidebar />
 
             <div className="flex-1 overflow-y-auto md:ml">
-                <DashboardHeader />
                 <ResultsTable />
 
             </div>
