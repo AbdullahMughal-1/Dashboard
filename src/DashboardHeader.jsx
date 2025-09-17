@@ -1,7 +1,7 @@
 // DashboardHeader.jsx
 import React from 'react';
 
-const DashboardHeader = () => {
+const DashBoardHeader = () => {
     return (
         <header className="h-16 bg-white border-b border-gray-200 px-6 flex items-center justify-between">
             <div className="flex items-center gap-4">
@@ -66,4 +66,4 @@ const DashboardHeader = () => {
     );
 };
 
-export default DashboardHeader;
+export default DashBoardHeader;
