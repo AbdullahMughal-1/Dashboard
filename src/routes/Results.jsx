@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../SideBar'
-import DashboardHeader from '../DashBoardHeader';
 import ResultsTable from '../Result/ResultTable';
+import DashboardHeader from '../DashBoardHeader';
 
 export default function Results() {
     return (
