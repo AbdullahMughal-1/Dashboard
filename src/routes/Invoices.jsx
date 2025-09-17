@@ -6,10 +6,8 @@ import InvoicesTable from '../Invoices/InvoicesTable';
 export default function Invoices() {
     return (
         <div className="flex h-screen overflow-hidden bg-gray-100">
-            {/* Sidebar stays fixed and non-scrollable */}
             <Sidebar />
 
-            {/* Main content scrolls independently */}
             <div className="flex-1 overflow-y-auto md:ml">
                 <DashboardHeader />
                 <InvoicesTable />

@@ -6,7 +6,7 @@ import Results from './routes/Results';
 import DateSheet from './routes/DateSheet';
 import Invoices from './routes/Invoices';
 import Attendance from './routes/Attendance';
-import DashBoard from './routes/Dashboard1';
+import DashBoard from "./routes/DashBoard";
 
 function App() {
   return (

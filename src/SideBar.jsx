@@ -15,7 +15,6 @@ const Sidebar = () => {
         { name: 'Attendance', icon: 'user-check', path: '/attendance' },
     ];
 
-    // Automatically update active item based on current route
     useEffect(() => {
         const current = navItems.find(item => location.pathname.startsWith(item.path));
         if (current) {
@@ -60,7 +59,6 @@ const Sidebar = () => {
 
     return (
         <div className="relative ">
-            {/* Hamburger Button */}
             <button
                 className="p-3 m-3 rounded-md bg-emerald-600 text-white z-50 fixed top-4 left-4 md:hidden"
                 onClick={() => setIsOpen(!isOpen)}
@@ -78,19 +76,16 @@ const Sidebar = () => {
                 </svg>
             </button>
 
-            {/* Sidebar */}
             <aside
                 className={`w-64 h-screen bg-white border-r border-gray-200 text-gray-800 flex flex-col fixed top-0 left-0 z-40 transition-transform duration-300  space-y-2 ${isOpen ? 'translate-x-0' : '-translate-x-full'
                     } md:translate-x-0 md:static`}
             >
-                {/* Brand */}
                 <div className="px-5 py-6 text-2xl font-semibold tracking-tight text-emerald-700">
                     DevXcript
                     <p className="text-sm text-gray-400">Student Portal</p>
                 </div>
                 <hr className="border-[1px] border-gray-200" />
 
-                {/* Nav */}
                 <nav className="px-3 space-y-1">
                     {navItems.map((item) => {
                         const isActive = activeItem === item.name;
@@ -124,9 +119,8 @@ const Sidebar = () => {
                     })}
                 </nav>
 
-                {/* Footer */}
                 <div className="mt-auto px-5 py-4 text-xs text-gray-500">
-                    Developed By DevXcript.
+                    Developed By Abdullah Mughal
                 </div>
             </aside>
         </div>
