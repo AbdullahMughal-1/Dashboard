@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from '../SideBar'
-import Exam1 from '../exam/exam1';
+import Exam1 from '../exam/Exam1';
 
 
 
